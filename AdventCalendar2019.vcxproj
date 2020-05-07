@@ -123,6 +123,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AcDayTwo.cpp" />
+    <ClCompile Include="acMain.cpp" />
+    <ClCompile Include="AcDayOne.cpp" />
+    <ClCompile Include="AcOpCode.cpp" />
+    <ClCompile Include="QQDataFileReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcDays.h" />
+    <ClInclude Include="AcDayOne.h" />
+    <ClInclude Include="AcDayTwo.h" />
+    <ClInclude Include="AcOpCode.h" />
+    <ClInclude Include="QQDataFileReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

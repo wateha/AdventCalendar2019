@@ -127,7 +127,6 @@
     <ClCompile Include="acMain.cpp" />
     <ClCompile Include="AcDayOne.cpp" />
     <ClCompile Include="AcOpCode.cpp" />
-    <ClCompile Include="QQDataFileReader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AcDays.h" />

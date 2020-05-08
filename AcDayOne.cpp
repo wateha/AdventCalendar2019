@@ -3,8 +3,8 @@
 AcDayOne::AcDayOne()
 {
     std::cout << "--- Day 1: The Tyranny of the Rocket Equation ---" << std::endl;
-    std::cout << "Solution A: " << computeBasicFuel(fileReader.getData("data", '\n')) << std::endl;
-    std::cout << "Solution B: " << computeAdvancedFuel(fileReader.getData("data", '\n')) << std::endl << std::endl;
+    std::cout << "Solution A: " << computeBasicFuel(fileReader.getData("data_day_1", '\n')) << std::endl;
+    std::cout << "Solution B: " << computeAdvancedFuel(fileReader.getData("data_day_1", '\n')) << std::endl << std::endl;
 }
 
 int AcDayOne::getTotalFuel()
@@ -17,7 +17,7 @@ int AcDayOne::computeFuelForModule(int mass)
     return (mass / 3) - 2;
 }
 
-int AcDayOne::computeBasicFuel(const std::vector<std::vector<int>>& modules)
+int AcDayOne::computeBasicFuel(const std::vector<std::vector<int>> &modules)
 {
     int totalMass{};
     for (int i{}; i < modules.size(); i++) {
@@ -26,7 +26,7 @@ int AcDayOne::computeBasicFuel(const std::vector<std::vector<int>>& modules)
     return totalMass;
 }
 
-int AcDayOne::computeAdvancedFuel(const std::vector<std::vector<int>>& modules)
+int AcDayOne::computeAdvancedFuel(const std::vector<std::vector<int>> &modules)
 {
     int totalMass{};
     for (int i{}; i < modules.size(); i++) {

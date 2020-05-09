@@ -1,10 +1,9 @@
 #ifndef QQDATAFILEREADER
 #define QQDATAFILEREADER
-
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <vector>
+    #include <fstream>
+    #include <iostream>
+    #include <string>
+    #include <vector>
 
 /*
 Template class to read multi-line input file, line-by-line, then split each line by the given delimiter.
@@ -17,10 +16,13 @@ template <class T>
 class QQDataFileReader {
 public:
     // Master data vector accessor (const)
-    std::vector<std::vector<T>>& getData(const std::string &fileName, char delimiter)
-    {
-        readDataFile(fileName);
-        splitData(delimiter);
+    std::vector<std::vector<T>>& getData(const std::string &fileName, char delimiter, bool readAgain = false)
+    {   
+        // Do not read file after data was loaded, unless specifically requested to readAgain
+        if (inputDataVector.empty() || readAgain) {
+            readDataFile(fileName);
+            splitData(delimiter);
+        }
         return dataVector;
     }
 

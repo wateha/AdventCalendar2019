@@ -1,10 +1,9 @@
 #ifndef ACDAYTWO
 #define ACDAYTWO
-
-#include "AcOpCode.h"
-#include "QQDataFileReader.h"
-#include <iostream>
-#include <vector>
+    #include "AcOpCode.h"
+    #include "QQDataFileReader.h"
+    #include <iostream>
+    #include <vector>
 
 class AcDayTwo {
 public:

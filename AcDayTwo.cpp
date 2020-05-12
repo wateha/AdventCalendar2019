@@ -30,5 +30,4 @@ AcDayTwo::AcDayTwo()
     }
 
     std::cout << "Solution B: " << 100 * a + b << std::endl << std::endl;
-
 }

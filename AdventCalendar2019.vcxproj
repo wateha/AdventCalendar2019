@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AcDayThree.cpp" />
     <ClCompile Include="AcDayTwo.cpp" />
     <ClCompile Include="acMain.cpp" />
     <ClCompile Include="AcDayOne.cpp" />
@@ -131,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="AcDays.h" />
     <ClInclude Include="AcDayOne.h" />
+    <ClInclude Include="AcDayThree.h" />
     <ClInclude Include="AcDayTwo.h" />
     <ClInclude Include="AcOpCode.h" />
     <ClInclude Include="QQDataFileReader.h" />

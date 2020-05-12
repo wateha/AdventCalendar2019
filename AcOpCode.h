@@ -1,7 +1,6 @@
 #ifndef ACOPCODE
 #define ACOPCODE
-
-#include <vector>
+    #include <vector>
 /*
     Class responsible for interpreting and executing provided opcode.
     Available instructions list will be expanded as development progresses.

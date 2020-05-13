@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AcDayFour.cpp" />
     <ClCompile Include="AcDayThree.cpp" />
     <ClCompile Include="AcDayTwo.cpp" />
     <ClCompile Include="acMain.cpp" />
@@ -130,6 +131,7 @@
     <ClCompile Include="AcOpCode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AcDayFour.h" />
     <ClInclude Include="AcDays.h" />
     <ClInclude Include="AcDayOne.h" />
     <ClInclude Include="AcDayThree.h" />

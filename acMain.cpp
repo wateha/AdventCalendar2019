@@ -9,5 +9,6 @@ int main(int argc, std::string argv[])
     AcDayOne dayOne{};
     AcDayTwo dayTwo{};
     AcDayThree dayThree{};
+    AcDayFour dayFour{};
     return 0;
 }

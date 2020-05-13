@@ -27,6 +27,12 @@
     <ClCompile Include="AcOpCode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AcDayThree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcDayFour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QQDataFileReader.h">
@@ -42,6 +48,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AcOpCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcDayThree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcDayFour.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

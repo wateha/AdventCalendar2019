@@ -123,21 +123,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AcDayFive.cpp" />
     <ClCompile Include="AcDayFour.cpp" />
     <ClCompile Include="AcDayThree.cpp" />
     <ClCompile Include="AcDayTwo.cpp" />
+    <ClCompile Include="AcIntCodeD5.cpp" />
     <ClCompile Include="acMain.cpp" />
     <ClCompile Include="AcDayOne.cpp" />
-    <ClCompile Include="AcOpCode.cpp" />
+    <ClCompile Include="AcIntCodeD2.cpp" />
+    <ClCompile Include="QQ_Int.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AcDayFive.h" />
     <ClInclude Include="AcDayFour.h" />
     <ClInclude Include="AcDays.h" />
     <ClInclude Include="AcDayOne.h" />
     <ClInclude Include="AcDayThree.h" />
     <ClInclude Include="AcDayTwo.h" />
-    <ClInclude Include="AcOpCode.h" />
+    <ClInclude Include="AcIntCodeD2.h" />
+    <ClInclude Include="AcIntCodeD5.h" />
     <ClInclude Include="QQDataFileReader.h" />
+    <ClInclude Include="QQ_Int.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

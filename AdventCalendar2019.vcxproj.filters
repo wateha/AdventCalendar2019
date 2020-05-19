@@ -24,13 +24,22 @@
     <ClCompile Include="AcDayTwo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AcOpCode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="AcDayThree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AcDayFour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcIntCodeD2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcIntCodeD5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcDayFive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QQ_Int.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,13 +56,22 @@
     <ClInclude Include="AcDayTwo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AcOpCode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="AcDayThree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AcDayFour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcIntCodeD2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcIntCodeD5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcDayFive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QQ_Int.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

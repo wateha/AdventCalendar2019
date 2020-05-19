@@ -36,6 +36,7 @@ private:
     void readDataFile(const std::string &fileName)
     {
         std::ifstream inputDataFile;
+        inputDataVector.clear();
 
         inputDataFile.open(fileName);
         while (inputDataFile.eof() == 0) {
@@ -53,6 +54,7 @@ private:
     void splitData(char delimiter)
     {
         std::string data{};
+        clearData();
 
         for (size_t dataStringCounter = 0; dataStringCounter < inputDataVector.size(); dataStringCounter++) {
             size_t pos{ 0 };
@@ -75,6 +77,16 @@ private:
             // Store lines split into vectors in the master data vector, mirroring the original data file
             dataVector.push_back(subVector);
         }
+    }
+
+
+    // Erase dataVector's and its subvector's data
+    void clearData()
+    {
+        for (int i = 0; i < dataVector.size(); i++) {
+            dataVector[i].clear();
+        }
+        dataVector.clear();
     }
 
     // Overloaded conversion method, to handle conversion to T type via appropriate standard conversion function
